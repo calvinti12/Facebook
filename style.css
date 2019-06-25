@@ -1,0 +1,80 @@
+*{
+    padding: 0; margin: 0;
+}
+h2{
+	color: red;
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	border: 3px solid #f1f1f1;
+	padding: 5px;
+	width: 490px;
+	margin: auto;
+	margin-bottom: 10px;
+    margin-top: 10px;
+	box-shadow: 0 0 10px 5px #50626c;
+}
+form {
+    border: 3px solid #f1f1f1;
+    font-family: Roboto, Helvetica, FreeSans, monospace, sans-serif;
+    width: 500px;
+    margin: auto;
+	box-shadow: 0 0 10px 5px #50626c;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+label{
+	color:#50626C;
+	text-transform: uppercase;
+}
+button {
+    background-color: #049372;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+body {
+	background-image: url('images/1.jpg');
+	background-image: url('images/2.jpg');
+	background-image: url('images/3.jpg');
+	background-image: url('images/4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+ }
+
+.imgcontainer {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+img.avatar {
+    width: 75%;
+    border-radius: 10%;
+}
+
+.container {
+    padding: 5px;
+	text-align: center;
+}
+
+span{
+	color:#50626C;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+}
